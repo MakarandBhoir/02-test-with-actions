@@ -58,34 +58,14 @@ def test_get_nth_fibonacci_one():
     assert result == 1
 
 
-# def test_get_nth_fibonacci_ten():
-#     """Test with n=10."""
-#     # Arrange
-#     n = 10
-
-#     # Act
-#     result = get_nth_fibonacci(n)
-
-#     # Assert
-#     assert result == 89
-
-# ============================================ tests coverage =============================================
-# ____________________________ coverage: platform linux, python 3.13.9-final-0 ____________________________
-
-# Name                  Stmts   Miss  Cover
-# -----------------------------------------
-# src/calculations.py      16      6    62%
-# -----------------------------------------
-# TOTAL                    16      6    62%
-# =========================================== 4 passed in 0.06s ===========================================
-
 def test_get_nth_fibonacci_ten():
- """Test with n=10."""
- # Arrange
- n = 10
+    """Test with n=10."""
+    # Arrange
+    n = 10
 
- # Act
- result = get_nth_fibonacci(n)
+    # Act
+    result = get_nth_fibonacci(n)
 
- # Assert
- assert result == 89
+    # Assert
+    assert result == 89
+
