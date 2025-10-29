@@ -31,7 +31,7 @@ jobs:
       - name: Run tests and generate coverage details
         run: pytest --cov=src
 
-      - name: Coverage comment2
+      - name: Coverage comment
         uses: py-cov-action/python-coverage-comment-action@v3
         with:
           GITHUB_TOKEN: ${{ github.token }}
@@ -40,3 +40,6 @@ jobs:
 
       - name: Fail if below threshold
         run: coverage report --fail-under=90
+      
+      - name: hello
+        run: echo hello world!
